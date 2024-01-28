@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+    background-color: #191A23;
+    color: whitesmoke;
+    font-family: "Linux Libertine G";
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.back-titre {
+    margin: 0;
+    padding: 0;
+    background: url("background-image.png") no-repeat; 
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+}
+
+.text-titre {
+    margin: 0;
+    font-size: 1000%;
+    color: whitesmoke;
+    font-family: "Linux Libertine G";
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.bouton-titre {
+    display: block;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    width: 90%;
+    height: 100px;
+    border-radius: 30px;
+    border-style: none;
+    background-color: whitesmoke;
+}
+
+.bouton-titre:hover {
+    border-radius: 40px;
+}
