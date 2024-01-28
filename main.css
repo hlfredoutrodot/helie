@@ -1,15 +1,15 @@
 @charset "utf-8";
 /* CSS Document */
 
-@keyframes fadeRadius {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+@font-face {
+    font-family: "Lato";
+    src:url("fonts/Lato-Medium.ttf");
 }
 
 html {
     background-color: #191A23;
     color: whitesmoke;
-    font-family: "Linux Libertine G";
+    font-family: "Lato";
 }
 
 body {
@@ -32,9 +32,10 @@ a {
     margin: 0;
     font-size: 1000%;
     color: whitesmoke;
-    font-family: "Linux Libertine G";
+    font-family: "Lato";
     text-align: center;
     margin-bottom: 100px;
+    background-color:#04002E;
 }
 
 .bouton-titre {
@@ -50,7 +51,7 @@ a {
     border-radius: 20px;
     opacity: 100%;
     transition: 0.3s;
-    font-family: "Linux Libertine G";
+    font-family: "Lato";
     color: whitesmoke;
     font-size: 200%;
 }
