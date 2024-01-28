@@ -5,13 +5,10 @@ html {
     background-color: #191A23;
     color: whitesmoke;
     font-family: "Linux Libertine G";
-    overflow-y: hidden;
-    overflow-x: hidden;
 }
 
 body {
-    overflow-y: hidden;
-    overflow-x: hidden;
+    
 }
 
 .back-titre {
@@ -41,8 +38,13 @@ body {
     border-radius: 30px;
     border-style: none;
     background-color: whitesmoke;
+    opacity: 100%;
+    font-family: "Linux Libertine G";
+    font-size: 200%;
 }
 
 .bouton-titre:hover {
-    border-radius: 40px;
+    opacity: 90%;
+    font-size: 210%;
+    
 }
